@@ -7,7 +7,7 @@ variable "ca_common_name" {
 }
 
 variable "ca_public_key_file_path" {
-  default = "/home/ubuntu/vault.crt.pem"
+  default = "/Users/kabu/hashicorp/certs/vaultca.crt.pem"
 }
 
 variable "common_name" {
@@ -19,7 +19,7 @@ variable "dns_names" {
 }
 
 variable "ip_addresses" {
-  default = ["10.10.1.57"]
+  default = ["127.0.0.1"]
 }
 
 variable "organization_name" {
@@ -27,11 +27,11 @@ variable "organization_name" {
 }
 
 variable "private_key_file_path" {
-  default = "/home/ubuntu/vault.key.pem"
+  default = "/Users/kabu/hashicorp/certs/vault.key.pem"
 }
 
 variable "public_key_file_path" {
-  default = "/home/ubuntu/vault.crt.pem"
+  default = "/Users/kabu/hashicorp/certs/vault.crt.pem"
 }
 
 variable "validity_period_hours" {
