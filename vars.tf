@@ -7,7 +7,7 @@ variable "ca_common_name" {
 }
 
 variable "ca_public_key_file_path" {
-  default = "/Users/kabu/hashicorp/certs/vaultca.crt.pem"
+  default = "/home/ubuntu/vaultca.crt.pem"
 }
 
 variable "common_name" {
@@ -27,11 +27,11 @@ variable "organization_name" {
 }
 
 variable "private_key_file_path" {
-  default = "/Users/kabu/hashicorp/certs/vault.key.pem"
+  default = "/home/ubuntu/vault.key.pem"
 }
 
 variable "public_key_file_path" {
-  default = "/Users/kabu/hashicorp/certs/vault.crt.pem"
+  default = "/home/ubuntu/vault.crt.pem"
 }
 
 variable "validity_period_hours" {
