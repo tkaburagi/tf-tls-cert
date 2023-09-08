@@ -7,7 +7,7 @@ variable "ca_common_name" {
 }
 
 variable "ca_public_key_file_path" {
-  default = "/home/ubuntu/vaultca.crt.pem"
+  default = "~/vaultca.crt.pem"
 }
 
 variable "common_name" {
@@ -27,11 +27,11 @@ variable "organization_name" {
 }
 
 variable "private_key_file_path" {
-  default = "/home/ubuntu/vault.key.pem"
+  default = "~//vault.key.pem"
 }
 
 variable "public_key_file_path" {
-  default = "/home/ubuntu/vault.crt.pem"
+  default = "~/vault.crt.pem"
 }
 
 variable "validity_period_hours" {
