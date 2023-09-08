@@ -1,6 +1,14 @@
 # ---------------------------------------------------------------------------------------------------------------------
 #  CREATE A CA CERTIFICATE
 # ---------------------------------------------------------------------------------------------------------------------
+terraform {
+  required_providers {
+    tls = {
+      source = "hashicorp/tls"
+      version = "3.2.0"
+    }
+  }
+}
 
 resource "tls_private_key" "ca" {
   algorithm   = var.private_key_algorithm
